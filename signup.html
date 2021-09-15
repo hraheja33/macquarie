@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>REGISTER</title>
+</head>
+
+<body>
+
+    <nav id="top-nav" class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color: #222930;">
+        <a id="img-logo" class="navbar-brand" href="index.html">
+            <img src="./images/Macquarie_logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">INFO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="myaccount.html">MY ACCOUNT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="padding-top: 8%;">
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password" />
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password" />
+                            </div>
+
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+                                <a href="myaccount.html" style="padding-left: 50%; color: black;">Already a member?</a>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid" style="background-color: #222930; color: white;">
+        <div class="row">
+            <div class="col-sm details">
+                <p>Macquarie has been providing organizations with the temporary, permanent, and contract talent they need to reach their goals, since 1968. We're not just staffing! From payrolling to onsite management, we deliver customized solutions to
+                    meet any HR challenge.It takes more than skills and experience on paper to be the right fit for a role. Our in-depth screening, interviewing, and testing ensure hiring success.We're experts in your field. Macquarie has six distinct
+                    divisions, staffed by niche-recruitment specialists.Macquarie has 12 convenient branch locations, serving the Quebec, Ontario, and New York City employment markets.Macquarie's divisions company-wide are proud to support the canadians
+                    and americans.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer" style="background-color: white; color: #222930;">
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="nav flex-column footer-nav">
+                    <ul class="nav">
+                        <li id="contact" style="padding-right: 40px;" class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                            <h6 style="padding-left: 16px;">(437)123-4567</h6>
+                            <h6 style="padding-left: 16px;">contactus@macquarie.ca</h6>
+                        </li>
+                    </ul>
+                    <br>
+                    <li class="nav-item">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3">
+                <ul class="nav flex-column footer-nav">
+                    <li class="nav-item">
+                        <a href="info.html" class="nav-link">ABOUT US</a>
+                        <a href="#" class="nav-link">POLICIES</a>
+                        <a href="myaccount.html" class="nav-link">ACCOUNT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <form action="index.html" method="post">
+                    <input type="email" style="width: 60%; margin-right: 10px; border: 1px solid;" placeholder="Enter your email here" name="email" id="subscribe"><br>
+                    <button type="submit" class="sub-btn">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- external JS -->
+    <script src="./jscript.js"></script>
+</body>
+
+</html>
